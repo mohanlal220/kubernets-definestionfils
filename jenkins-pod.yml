@@ -1,0 +1,18 @@
+apiVersion
+kind: pod
+  yment --all
+metadata: 
+ name: jenkins-pod
+ labels: 
+  author: mohanlal
+  type: ci-cd
+spec: 
+ containers:
+  - name:  myjenkins
+    image: jenkins
+    ports: 
+     - containerport: 8080 
+       hostport: 8080
+
+   
+   

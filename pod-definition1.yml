@@ -1,0 +1,11 @@
+kind: Pod 
+apiVersion: v1  
+metadata: 
+ name: nginx-pod
+ labels: 
+  author: mohanlal
+  type: reverse-proxy
+spec:
+ containers:
+  - name: mohanserver
+    image: nginx  
